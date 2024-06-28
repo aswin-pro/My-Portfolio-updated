@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    background-image: url(./background/5655049.jpg);
+    background-position: center;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.navbar__s2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar__s2 a{
+    text-decoration: none;
+    width: 80px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(215, 166, 166);
+    color: rgb(3, 3, 3);
+    border: none;
+}
+ a:hover{
+    background-color: rgb(205, 0, 0);;
+    color: white;
+}
+.container{
+    margin-top: 10px;
+    padding: 20px;
+} 
+.container a:hover{
+    background-color: rgb(205, 0, 0);;
+    color: white;
+}
+.container h1{
+    margin-top: 10px;
+}
+.container p{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.container a{
+    text-decoration: none;
+    width: 100px;
+    background-color: rgb(215, 166, 166); 
+    padding: 8px;
+    color: rgb(1, 0, 0);
+}
+.projects{
+    padding: 10px;
+   
+}
+.projects__title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.projects__info{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.projects__info p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.projects__info:hover{
+    background-color: rgb(228, 214, 214); 
+}
+
+.cpyrty {
+    padding-bottom: 10px;
+    text-align: center;
+}
+/* About me */
+.about{
+    margin-top: 25px;
+    padding: 30px;
+    text-align: justify;
+    line-height: 35px;
+}
+.about h1{
+    margin-bottom: 20px;
+}
+.about__btn a{
+    text-decoration: none;
+    background-color: rgb(215, 166, 166);
+    color: black;
+    padding: 5px 25px 5px 25px;
+}
+.about__btn{
+    margin-left: 30px;
+}
+.about__btn a:hover{
+    background-color: rgb(205, 0, 0);
+    color: white;
+}
+/* contact me */
+.contact{
+    padding: 30px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact__btn{
+    border: none;
+}
+.contact h1{
+   
+    border-bottom: 10px;
+}
+.contact input, textarea{
+    margin-top: 10px;
+    background: transparent;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+.contact input{
+    padding: 10px;
+}
+.contact textarea{
+    padding: 10px;
+}
+.contact textarea,input:focus{
+    outline: none;
+}
+.contact button{
+    border: none;
+    background-color: rgb(215, 166, 166); 
+    padding: 5px 50px 5px 50px;
+    margin-top: 20px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact button:hover{
+    background-color: rgb(205, 0, 0);
+    color: white;
+}
