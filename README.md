@@ -10,7 +10,7 @@ Technologies used HTML CSS
 
 How to View
 
-You can access my portfolio website by visiting [ https://aswin-pro.github.io/portfolio-simple-website/index.html ]
+You can access my portfolio website by visiting [ https://aswin-pro.github.io/My-Portfolio-updated/ ]
 
 Contributing
 
