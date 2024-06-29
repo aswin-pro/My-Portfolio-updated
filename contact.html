@@ -15,31 +15,14 @@
 <body>
     <div class="contact">
         <h1>Contact Me</h1>
-        <form action="">
-            <table >
-                <tr>
-                    <td>Name:</td>
-                    <td><input type="text" placeholder="Enter Your Name"></td>
-                </tr>
-
-                <tr>
-                    <td>Email:</td>
-                    <td><input type="text" placeholder="Enter Your Email"></td>
-                </tr>
-
-                <tr>
-                    <td>Message:</td>
-                    <td>
-                        <textarea name="" id="" placeholder="Message..."></textarea>
-                    </td>
-                </tr>
-
-                <tr>
-                     <td></td>
-                    <td><Button type="submit">Send</Button></td>
-                </tr>
-            </table>
+        <form action="#" method="post">
+            <div class="contact__inputs">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea name="" id="" placeholder="Message..." required></textarea>
+                <button type="submit" class="contact__btn">Contact</button>
         </form>
+    </div>
     </div>
 </body>
 
